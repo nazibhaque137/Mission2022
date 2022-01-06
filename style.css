@@ -81,10 +81,17 @@ section{
 .follower h1{
     font-weight: 700;
 }
+.universe img{
+    width: 60%;
+    padding-left: 300px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
 
 .avenger{
     text-align: center;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-right: 200px;
 }
 .ending{
