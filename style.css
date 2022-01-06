@@ -4,7 +4,9 @@ body{
 }
 h1{
     font-size: 80px;
+    
 }
+
 .description{
     font-family: 'Spline Sans', sans-serif;
     font-size: 20px;
@@ -12,13 +14,21 @@ h1{
     margin-bottom: 50px;
 
 }
+.border{
+    border-left: 6px solid orange;
+    padding-left: 20px;
+}
 .teal-color{
     color: teal;
+    text-shadow: 4px 4px rgb(5, 1, 61);
 
 }
 section{
-    display: flex;
+    padding-bottom: 200px;
 
+}
+.flexible-container{
+    display: flex;
 }
 .half-width{
     width: 50%;
@@ -35,4 +45,51 @@ section{
     border-radius: 5px;
     font-family: 'Spline Sans', sans-serif;
     font-weight: 700;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.one-third{
+    width: 25%;
+    margin-left: 2%;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.one-third img{
+    width: 50%;
+}
+.mission{
+    background-color: rgb(250, 235, 207);
+}
+.vision{
+    background-color: rgb(250, 216, 222);
+}
+.goals{
+    background-color: rgb(228, 228, 163);
+}
+.mission-area{
+    padding-left: 5%;
+}
+.mission-area{
+    font-family: sans-serif;
+}
+.follower{
+    font-family: sans-serif;
+    padding-right: 100px;
+    }
+.follower h1{
+    font-weight: 700;
+}
+
+.avenger{
+    text-align: center;
+    padding-top: 300px;
+    padding-right: 200px;
+}
+.ending{
+    color: white;
+    background-color: black;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
