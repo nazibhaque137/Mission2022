@@ -1,20 +1,38 @@
 body{
     font-family: 'Bangers', cursive;
+    margin: 0%;
 }
 h1{
     font-size: 80px;
 }
 .description{
     font-family: 'Spline Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
-.silver-color{
-    color: magenta;
+.teal-color{
+    color: teal;
+
+}
+section{
+    display: flex;
 
 }
 .half-width{
-    width: 40%;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
 }
-.alom1{
-    width: 60%;
+.half-width img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient( aqua, teal);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 700;
 }
